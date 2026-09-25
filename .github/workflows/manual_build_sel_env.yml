@@ -11,10 +11,10 @@ on:
       environment:
         description: 'Select environment to build'
         required: true
-        default: 'lilygo-t-embed-cc1101'
+        default: "esp32-s3-n16r8-st7789v"
         type: choice
         options:
-          - "m5stack-cardputer"
+          - "esp32-s3-n16r8-st7789v"
           - "m5stack-cplus2"
           - "m5stack-cplus1_1"
           - "LAUNCHER_m5stack-cplus1_1"
